@@ -31,7 +31,7 @@ public class UserCtrl {
 	}
 	
 	/**
-	 * function get a user using an {@link Id}
+	 * function get a user using an Id
 	 * @param userId
 	 * @return one user
 	 */
@@ -50,7 +50,7 @@ public class UserCtrl {
 	}
 	
 	/**
-	 * function update a user using an {@link Id}
+	 * function update a user using an  Id
 	 * @param userMo
 	 * @param userId
 	 */
