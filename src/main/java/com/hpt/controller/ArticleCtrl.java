@@ -18,7 +18,7 @@ import com.hpt.service.ArticleService;
 public class ArticleCtrl {
 	
 	/**
-	 * Injection dependency {@link ArticleService}
+	 * Injection dependency  ArticleService
 	 */
 	@Autowired
 	private ArticleService articleService;
