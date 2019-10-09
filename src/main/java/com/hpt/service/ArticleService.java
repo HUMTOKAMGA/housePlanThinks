@@ -53,12 +53,12 @@ public class ArticleService {
 	}
 	
 	// Get All articles find by user and piece
-	public List<ArticleMo> getAllUserPiecesArticles(int userId, int pieceId){
-		List<ArticleMo> articleMo = new ArrayList<>();
-		articleRepo.findByPieceMoIdUserMoId(pieceId, userId)
-		.forEach(articleMo::add);
-		return articleMo;
-	}
+//	public List<ArticleMo> getAllUserPiecesArticles(int userId, int pieceId){
+//		List<ArticleMo> articleMo = new ArrayList<>();
+//		articleRepo.findByPieceMoUserMo(pieceId, userId)
+//		.forEach(articleMo::add);
+//		return articleMo;
+//	}
 	
 	public List<ArticleMo> getAllPieceArticles(int pieceId){
 		List<ArticleMo> articleMo = new ArrayList<>();

@@ -48,10 +48,10 @@ public class ArticleCtrl {
 	 * @param pieceId
 	 * @return
 	 */
-	@RequestMapping("/hpt/users/{userId}/pieces/{pieceId}/articles")
-	public List<ArticleMo> getAllUserPieceArticles(@PathVariable int userId, @PathVariable int pieceId){
-		return articleService.getAllUserPiecesArticles(pieceId, userId);
-	}
+//	@RequestMapping("/hpt/users/{userId}/pieces/{pieceId}/articles")
+//	public List<ArticleMo> getAllUserPieceArticles(@PathVariable int userId, @PathVariable int pieceId){
+//		return articleService.getAllUserPiecesArticles(pieceId, userId);
+//	}
 	
 	/**
 	 * 
