@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,6 +24,7 @@ public class UserCtrl {
 	 * function get all users
 	 * @return all users
 	 */
+	@CrossOrigin(origins ="http://localhost:4200")
 	@RequestMapping("/hpt/users")
 	public List<UserMo> getAllUsers(){
 		return userService.getAllUsers();

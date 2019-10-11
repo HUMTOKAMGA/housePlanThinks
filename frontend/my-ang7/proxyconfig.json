@@ -1,0 +1,7 @@
+{
+    "/api": {
+        "target": "http://localhost:8080/hpt/users",
+        "secure": false,
+        "changeOrigin": true
+    }
+}
